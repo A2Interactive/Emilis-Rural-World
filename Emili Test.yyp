@@ -41,6 +41,7 @@
     {"id":{"name":"OneWayRoad","path":"fonts/OneWayRoad/OneWayRoad.yy",},},
     {"id":{"name":"collide","path":"objects/collide/collide.yy",},},
     {"id":{"name":"oAlarm","path":"objects/oAlarm/oAlarm.yy",},},
+    {"id":{"name":"oAlarm2","path":"objects/oAlarm2/oAlarm2.yy",},},
     {"id":{"name":"oDisplay_Scene2","path":"objects/oDisplay_Scene2/oDisplay_Scene2.yy",},},
     {"id":{"name":"oEmili_Scene1","path":"objects/oEmili_Scene1/oEmili_Scene1.yy",},},
     {"id":{"name":"oEmili_Scene10","path":"objects/oEmili_Scene10/oEmili_Scene10.yy",},},
@@ -67,6 +68,7 @@
     {"id":{"name":"sBlackScreen7","path":"objects/sBlackScreen7/sBlackScreen7.yy",},},
     {"id":{"name":"sDarkScreen","path":"objects/sDarkScreen/sDarkScreen.yy",},},
     {"id":{"name":"sSplash","path":"objects/sSplash/sSplash.yy",},},
+    {"id":{"name":"oEndScene","path":"rooms/oEndScene/oEndScene.yy",},},
     {"id":{"name":"rOutro","path":"rooms/rOutro/rOutro.yy",},},
     {"id":{"name":"rOutroFinal","path":"rooms/rOutroFinal/rOutroFinal.yy",},},
     {"id":{"name":"rOutroScene1","path":"rooms/rOutroScene1/rOutroScene1.yy",},},
@@ -160,6 +162,7 @@
     {"roomId":{"name":"rOutroScene4","path":"rooms/rOutroScene4/rOutroScene4.yy",},},
     {"roomId":{"name":"rOutroScene5","path":"rooms/rOutroScene5/rOutroScene5.yy",},},
     {"roomId":{"name":"rOutroFinal","path":"rooms/rOutroFinal/rOutroFinal.yy",},},
+    {"roomId":{"name":"oEndScene","path":"rooms/oEndScene/oEndScene.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -4,7 +4,7 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_set_alpha(fade);
 
-draw_text(925, 60, lyric_text);
+draw_text(925, y_pos, lyric_text);
 
 draw_set_alpha(1);
 

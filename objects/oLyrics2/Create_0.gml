@@ -1,5 +1,7 @@
 audio = audio_play_sound(outro_music, 2, false);
 
+y_pos = 60;
+
 depth = -500;
 lyric_text = "";
 
@@ -70,9 +72,37 @@ lyrics = [
 	
 	{
         time: 64.00,
-		text: "",
-        assigned_room: rOutroFinal
+		text: "'Emili's Rural World' by A2 Interactive",
+        assigned_room: rOutroFinal,
+		assigned_y: 650
     },
+	
+	{
+        time: 69.33,
+		text: "A project made out of: Interest and curiousity..",
+    },
+	
+	{
+        time: 74.66,
+		text: "..made in GameMaker.",
+    },
+	
+	{
+		time: 80.00,
+		text: "Thanks for participating in taking a peek at the project.."
+	},
+	
+	{
+		time: 85.33,
+		text: "..and have a nice day."
+	},
+	
+	{
+		time: 96.00,
+		text: "",
+		assigned_room: oEndScene
+	}	
+	
 ];
 
 position = 0;
@@ -87,8 +117,13 @@ lyric_movement = function() {
         var _room = lyrics[position][$ "assigned_room"]
         if(_room != undefined)
           room_goto(_room)
+		var _y = lyrics[position][$ "assigned_y"]
+		if (_y != undefined)
+			y_pos = _y;
         position++;
     }
 }
 
 fade = 1;
+
+alarm[0] = 60 * 90.00;
